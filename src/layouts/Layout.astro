@@ -1,0 +1,240 @@
+---
+import { SEO } from "astro-seo";
+import Footer from "@components/footer.astro";
+import Navbar from "@components/navbar/navbar.astro";
+import "@fontsource-variable/inter/index.css";
+import '@fontsource-variable/bricolage-grotesque';
+
+
+
+export interface Props {
+  title: string;
+}
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+
+const resolvedImageWithDomain = new URL(
+  "/opengraph.webp",
+  Astro.site
+).toString();
+
+const { title } = Astro.props;
+
+const makeTitle = title
+  ? title + " | " + "Astroship"
+  : "TeraBox Mod APK V3.32.6 Latest Version TeraBox APK Download";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="icon" href="/pwa-32x32.webp" sizes="32x32">
+    <link rel="icon" href="/pwa-192x192.webp" sizes="192x192">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.webp">
+    <link rel="sitemap" href="/sitemap-index.xml">    
+    <meta name="msapplication-TileImage" content="/pwa-270x270.webp">
+    <meta name="generator" content={Astro.generator} />
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Website",
+  "name": "TeraBOX MOD APK",
+  "url": " https://teraboxmod.cfd",
+  "@id": " https://teraboxmod.cfd#website",
+  "image": " https://teraboxmod.cfd/opengraph.webp",
+  "sameAs": [
+    ""
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "@id": "#webpage",
+  "url": "https://teraboxmod.cfd",
+  "inLanguage": "en-US",
+  "name": "TeraBoxMod",
+  "description": "TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up sharewith terabox app for PC.",
+  "isPartOf": {
+    "@id": " https://teraboxmod.cfd#website"
+  }
+}
+</script>
+   
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "name": "TeraBox MOD for PC",
+  "description": "TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up sharewith terabox app for PC.",
+  "operatingSystem": "Android/iOS/Windows/Mac",
+  "applicationCategory": "Tools/Utilities",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+ "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "5"
+},
+  "downloadUrl": "https://teraboxproapk.vercel.app/terabox-mod-for-pc-free-download",
+  "author": {
+    "@type": "Person",
+    "name": "Marcell Ziemann"
+  }
+}
+
+    </script>
+
+
+
+
+<script type="application/ld+json">
+    {
+  "@context": "https://schema.org/",
+  "@type": "MobileApplication",
+  "name": "TeraBox MOD APK",
+  "description": "TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up sharewith terabox app for PC.",
+  "operatingSystem": "Android",
+  "applicationCategory": "UtilitiesApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD"
+  },
+  "downloadUrl": "https://teraboxproapk.vercel.app/download-terabox-mod-apk-free",
+  "author": {
+    "@type": "Person",
+    "name": "Marcell Ziemann"
+  },
+"aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "5"
+  }
+},
+    "review": {
+      "@type": "Review",
+      "reviewBody": "Excellent app! Suggestions for improvement: - Gallery view for videos & photos - Separate views for photos, videos, & screenshots - Manual & automatic organizer feature Love the cinematic video interface, but prefer a traditional gallery view. These additions would enhance content management & discovery. Great job, looking forward to updates! I can give you more tips related to interface.",
+      "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "name": "TeraBoxMod"
+  },
+  "author": {
+    "@type": "Person",
+    "url": "https://teraboxmod.cfd/",
+    "name": "Althea S. Williams"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 5,
+    "worstRating": 1,
+    "bestRating": 5,
+    "reviewAspect": "Excellent"
+  }
+}
+
+    }
+    </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://teraboxmod.cfd"
+  },
+  "headline": "TeraBox Mod APK V3.32.6 Latest Version TeraBox APK Download",
+  "description": "TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up sharewith terabox app for PC.",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://teraboxmod.cfd/opengraph.webp",
+    "width": "1899",
+    "height": "1337"
+  },
+  "author": {
+    "@type": "Person",
+    "url": "https://teraboxmod.cfd/",
+    "name": "Althea S. Williams"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TerBox MOD APK",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://teraboxmod.cfd/logo-nav.webp",
+      "width": "250",
+      "height": "60"
+    }
+  },
+  "datePublished": "2024-08-28T13:36:30Z",
+  "dateModified": "2024-08-29T13:38:20Z"
+}
+</script>
+
+<!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://teraboxmod.cfd">
+  <meta property="og:title" content="TeraBox Mod APK V3.32.6 Latest Version TeraBox APK Download">
+  <meta property="og:description" content="TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up and sharewith terabox app for PC.">
+  <meta property="og:image" content="https://teraboxmod.cfd/opengraph.webp">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://teraboxmod.cfd">
+  <meta property="twitter:title" content="TeraBox Mod APK V3.32.6 Latest Version TeraBox APK Download">
+  <meta property="twitter:description" content="TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up and sharewith terabox app for PC.">
+  <meta property="twitter:image" content="https://teraboxmod.cfd/opengraph.webp">
+  
+
+
+    <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
+    <SEO
+      title={makeTitle}
+      description="TeraBox Mod APK, modded version of the TeraBox app. Get 1024GB cloud storage with terabox apk. Download and easily back up and sharewith terabox app for PC."
+      canonical={canonicalURL}
+      twitter={{
+        creator: "@altheas",
+        site: "@teraboxmod",
+        card: "summary_large_image",
+      }}
+      openGraph={{
+        basic: {
+          url: canonicalURL,
+          type: "website",
+          title: `TeraBox Mod APK V3.32.6 Latest Version TeraBox APK Download`,
+          image: resolvedImageWithDomain,
+        },
+        image: {
+          alt: "TeraBos MOD APK Homepage Screenshot",
+        },
+      }}
+    />
+  </head>
+  <body>
+    <Navbar />
+    <slot />
+    <Footer />
+    <style is:global>
+      /* Improve Page speed */
+      /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
+      img {
+        content-visibility: auto;
+      }
+    </style>
+  </body>
+</html>
